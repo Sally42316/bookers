@@ -1,0 +1,114 @@
+/* 総合 */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+
+
+
+
+/* /top */
+  body{
+    line-height: 20px;
+    padding: 30px;
+  }
+
+  .top-sentence{
+    margin: 25px;
+    line-height: 50px;
+  }
+
+  p{
+    font-size: 15px
+  }
+
+
+
+
+
+
+/* /indexのテーブル部分 */
+  th{
+    text-align: center;
+    padding: 8px 10px;
+    font-size: 15px;
+  }
+  .title{
+    width: 200px;
+  }
+  .body{
+    width: 400px;
+  }
+
+
+  td{
+    text-align: left;
+    padding: 8px 10px;
+    font-size: 15px;
+  }
+  .table-title{
+    width: 200px;
+  }
+  .table-body{
+    width: 400px;
+  }
+ .table-link{
+    text-align: center;
+    width: 25px;
+ }
+
+
+
+
+
+ /* /indexのNEW BOOK部分 */
+ .newbook{
+    margin-top: 30px;
+ }
+ .newbook-title{
+    margin-top: 20px;
+ }
+ .newbook-text{
+    margin: 15px 0;
+ }
+
+
+
+
+
+ /* app/views/books/show.html.erb */
+.detail{
+    margin: 0px auto 20px 40px;
+    line-height: 50px;
+    font-size: 15px;
+}
+
+.show-table-td1{
+    height: 10px;
+    text-align: center;
+    border-right: 1px solid black;
+}
+.show-table-td2{
+    height: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+/* app/views/books/edit.html.erb */
+.edit-title{
+    margin-top: 20px;
+}
+.edit-body{
+    margin: 10px 0;
+}
+.edit-button{
+    margin-bottom: 10px;
+    
+}
